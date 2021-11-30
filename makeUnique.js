@@ -15,3 +15,9 @@ console.log(makeUnique('helloworld'))
 
 console.log(makeUnique('iwanttoclimbamountain'))
 // iwantoclmbu
+
+function makeUnique2(str) {
+    let strSet = new Set(str.split(''));
+    return [...strSet].join('');
+}
+// REMEMBER TO USE SETS
